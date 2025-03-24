@@ -34,12 +34,6 @@
 
 🖼 **프로세스 다이어그램:**
 <img width="788" alt="프로세스 다이어그램" src="https://github.com/user-attachments/assets/c45e2ab1-f674-4add-ae92-de9802f72dd0" />
-
----
-
-<img width="788" alt="image" src="https://github.com/user-attachments/assets/026953cd-e93e-408c-a83b-a503ee682630" />
-
-
 ---
 
 ## 4️⃣ ERD (Entity-Relationship Diagram)
