@@ -33,7 +33,10 @@
 
 
 🖼 **프로세스 다이어그램:**
+<img width="788" alt="프로세스 다이어그램" src="https://github.com/user-attachments/assets/c45e2ab1-f674-4add-ae92-de9802f72dd0" />
+
 ---
+
 <img width="788" alt="image" src="https://github.com/user-attachments/assets/026953cd-e93e-408c-a83b-a503ee682630" />
 
 
@@ -349,6 +352,38 @@ https://github.com/user-attachments/assets/b63ec42b-648d-459a-98e9-bb90f3da7e1c
 
 ---
 
+### 📌 Feature 8 – CTI Integration(Amazon Connect & Salesforce)
+
+## 📖 개요  
+이 기능은 **상담원**이 Service Console에서 빠른 문제해결이 필요한 고객층인 **자영업자들의 전화 문의를 효율적으로 처리**할 수 있게 지원하며,  
+화면 전환없이 고객을 **파악**하고 문의를 **기록**하는 것을 목표로 합니다.
+
+---
+
+## 🛠 **기능 상세**
+
+### 1️⃣ **전화번호 기반 고객 정보 실시간 조회**
+- **Amazon Connect**로 수신된 전화번호를 **AWS Lambda**를 활용
+- **Salesforce**의 Contact 데이터와 비교해 **실시간 조회**
+
+### 2️⃣ **Case 자동 생성 및 **
+- 상담원이 전화 수락 시. **고객 정보 기반의 Case 자동 생성** 
+- 해당 Case에서 **통화 내용 기록** 및 Knowledge를 이용한 **빠른 상담 가능**
+
+---
+
+## 📽 **동영상 시연**
+
+https://github.com/user-attachments/assets/e65d6e9f-b216-4046-b263-4a8e17e7dd8b
+
+
+---
+
+✅ **기대 효과**  
+- **상담원의 업무 효율성 향상**
+- **고객 응대 품질 개선** 
+
+
 ### 🚀 ETC (기타 기능)
 
 본 섹션에서는 **추가적인 UI/UX 개선 기능**을 소개합니다.  
@@ -444,6 +479,7 @@ https://github.com/user-attachments/assets/2a74c090-2a40-4bf1-a6d4-029f88e340e4
 - ![Apex](https://img.shields.io/badge/Apex-0055CC?style=flat&logo=salesforce&logoColor=white)
 - ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 - ![SFDX](https://img.shields.io/badge/SFDX-00A1E0?style=flat&logo=salesforce&logoColor=white)
+- ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-F90?logo=aws-lambda&logoColor=white)
 
 ### **🎨 Frontend**
 - ![LWC](https://img.shields.io/badge/LWC-0070D2?style=flat&logo=salesforce&logoColor=white)
